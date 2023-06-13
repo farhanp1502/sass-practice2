@@ -1,0 +1,125 @@
+.section8 {
+  margin-top: 225.5vh;
+  .section8-1 {
+    padding: 40px 100px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    .section8-item1 {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      .logos {
+        display: flex;
+      }
+      img {
+        margin-right: 10px;
+        width: 25px;
+        height: 25px;
+      }
+      #p6 {
+        font-size: larger;
+        font-weight: bold;
+      }
+      #p7 {
+        font-size: smaller;
+      }
+    }
+    .section8-item2 {
+      width: 50%;
+      form {
+        #p6 {
+          font-size: larger;
+          font-weight: bold;
+        }
+        width: 100%;
+        height: 100%;
+        // margin: 20px;
+        display: flex;
+        flex-direction: column;
+
+        justify-content: space-evenly;
+        input {
+          width: 100%;
+          height: 30px;
+          background-color: rgba(128, 128, 128, 0.212);
+          border: none;
+          padding-left: 10px;
+          font-size: x-small;
+        }
+        textarea {
+          height: 20vh;
+          background-color: rgba(128, 128, 128, 0.212);
+          border: none;
+          border: none;
+          padding-left: 25px;
+          padding-left: 10px;
+          font-size: x-small;
+        }
+        button {
+          width: 100%;
+          background-color: #f78300;
+          border: none;
+          color: #fff;
+          height: 40px;
+          &:hover {
+            background-color: #000;
+          }
+        }
+      }
+    }
+  }
+  .section8-2{
+    .footer{
+      width: 100%;
+      height: 30vh;
+      // padding: 20px;
+      background-color: #333333;
+      color: #ffffffb9;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-evenly;
+      font-size: x-small;
+      .footer1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: 50%;
+        border-bottom: 1px solid #ffffffb9;
+      }
+      .footer2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        padding: 20px;
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .section8 {
+    margin-top: 225vh;
+
+    .section8-1 {
+      padding: 20px 30px;
+      height: 80vh;
+      flex-direction: column;
+      .section8-item1 {
+        width: 100%;
+      }
+      .section8-item2 {
+        width: 100%;
+        form {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}
